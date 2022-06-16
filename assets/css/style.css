@@ -1,7 +1,84 @@
 @charset "utf-8";
 
-/*  */
+/* 
+    Base Style
+*/
 
-h1 {
-    color: red;
+html {
+    /* ルートのフォントサイズを10px相当に指定 */
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+}
+
+
+/* 
+    メインコンテンツ
+*/
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* 
+    ヘッダー
+*/
+
+.header {
+    margin: 6rem 0 2rem 0;
+}
+
+.header-title {
+    font-size: 2.4rem;
+    font-weight: lighter;
+}
+
+
+/* 
+    ヒーロー
+*/
+
+.hero {}
+
+
+/* 
+    サブコンテンツ
+*/
+
+.sub-content {
+    width: 800px;
+    margin: 4.5rem auto;
+    background-color: rgb(245, 243, 243);
+    padding: 5rem 3rem;
+}
+
+
+/* 
+    インデックスセクション
+*/
+
+.index-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3.4rem;
+}
+
+.index-text {
+    border: solid #333 0.1rem;
+    padding: 4rem 3rem;
+}
+
+.text-list {
+    /* 「display: table;」と「margin: 0 auto;」で中央に配置 */
+    display: table;
+    margin: 0 auto;
+    line-height: 3.4rem;
+}
+
+.text-list .text-item {
+    font-size: 1.6rem;
 }
