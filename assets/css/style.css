@@ -13,9 +13,13 @@ body {
     color: #333;
 }
 
+ul {
+    list-style: none;
+}
+
 
 /* 
-    メインコンテンツ
+    MainContent Style
 */
 
 .main-content {
@@ -25,7 +29,7 @@ body {
 
 
 /* 
-    ヘッダー
+    Header Style
 */
 
 .header {
@@ -39,27 +43,30 @@ body {
 
 
 /* 
-    ヒーロー
+    Hero Style
 */
 
 .hero {}
 
 
 /* 
-    サブコンテンツ
+    SubContent Style
 */
 
 .sub-content {
     width: 800px;
     margin: 4.5rem auto;
-    background-color: rgb(245, 243, 243);
-    padding: 5rem 3rem;
 }
 
 
 /* 
-    インデックスセクション
+    Index Section Style
 */
+
+.section-index {
+    background-color: rgb(245, 243, 243);
+    padding: 5rem 3rem;
+}
 
 .index-title {
     text-align: center;
@@ -81,4 +88,25 @@ body {
 
 .text-list .text-item {
     font-size: 1.6rem;
+}
+
+
+/* 
+  Photos Section Style
+*/
+
+.section-photos {
+    margin-top: 5rem;
+}
+
+.photos-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.photo-item>img {
+    width: 38rem;
+    margin: 1rem;
 }
