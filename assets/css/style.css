@@ -17,6 +17,11 @@ ul {
     list-style: none;
 }
 
+a {
+    color: #333;
+    /* text-decoration: none; */
+}
+
 
 /* 
     MainContent Style
@@ -68,7 +73,7 @@ ul {
     padding: 5rem 3rem;
 }
 
-.index-title {
+.section-title {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 3.4rem;
@@ -109,4 +114,50 @@ ul {
 .photo-item>img {
     width: 38rem;
     margin: 1rem;
+}
+
+
+/* 
+  Detail Section Style
+*/
+
+.section-detail {
+    margin-top: 5rem;
+    background-color: rgb(245, 243, 243);
+    padding: 5rem;
+}
+
+.details-info {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.info {
+    width: 300px;
+}
+
+.info dt {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info dd {
+    margin: 0 0 1rem 0;
+}
+
+.detail-text {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left: #333 solid 1px;
+    padding-left: 2rem;
+}
+
+.detail-text p {
+    margin-top: 0;
+}
+
+.detail-text a {
+    vertical-align: bottom;
 }
